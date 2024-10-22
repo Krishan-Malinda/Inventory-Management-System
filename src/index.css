@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    min-height: 100svh;
+    height: 100%;
+    background-color: rgb(209, 255, 255);
+}
+
+.main_title{
+    margin-block: 1rem;
+    color: cornflowerblue;
+}
+
+.decision_area{
+    display: flex;
+    padding-block: 1rem;
+    gap: 2rem;
+}
+
+.sub_title{
+    padding-block: 1rem;
+}
+
+.sub_component{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.btn{
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    border-color: rgb(218, 217, 217)
+}
+
+.btn:hover{
+    filter: brightness(0.9);
+}
+
+.inputs{
+    padding: 0.125rem;
+}
+
+.show_qr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.show_qr>h3{
+    padding-top: 0.5rem;
+}
